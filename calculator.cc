@@ -5,9 +5,14 @@
 //        Assumes input of the form: 34+5*12-311/8                            //
 //        Supported operations: + - * /                                       //
 //        Order of operations: / * - +                                        //
-//        Parenthesis are not supported.                                      //
+//        Limitations:                                                        //
+//            -Parenthesis are not supported.                                 //
+//            -Input like -4*2 or 2*-4 not supported.                         //
+//            -Therefore, negative numbers are not supported.                 //
+//            -Mathematical constants not supported.                          //
+//            -Operations like ^, %, sqrt not supported.                      //
 //                                                                            //
-//    Install and run:                                                        //
+//    Compile and run:                                                        //
 //                                                                            //
 //        g++ -std=c++11 calculator.cc -o calculator                          //
 //        ./calculator.exe                                                    //
